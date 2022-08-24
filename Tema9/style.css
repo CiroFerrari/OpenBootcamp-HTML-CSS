@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: 2px solid blueviolet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #8b8b8b10;
+    color: #5b5b5b;
+    transition: all 0.4s;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px #5b5b5b;
+    background-color: black;
+    color: #ddd;
+}
